@@ -1,0 +1,16 @@
+svg {
+  display: block;
+  margin:auto;
+}
+
+#tooltip {
+  position: absolute;
+  pointer-events: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
